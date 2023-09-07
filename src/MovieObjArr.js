@@ -6,6 +6,7 @@ const movieArr = [
     posterurl:
       "https://www.washingtonpost.com/graphics/2019/entertainment/oscar-nominees-movie-poster-design/img/black-panther-web.jpg",
     rating: 8.8,
+
   },
   {
     title: "Charles Angels",

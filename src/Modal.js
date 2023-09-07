@@ -50,7 +50,7 @@ function Modal({ handleAddMovie }) {
               type="text"
               placeholder="Movie Title"
               onChange={(e) => setMovieTitle(e.target.value)}
-              value={movieTitle}
+                value={movieTitle}
               defaultValue={movieTitle}
             />
             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>

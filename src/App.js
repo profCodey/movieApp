@@ -1,3 +1,4 @@
+
 import "./App.css";
 import SearchBar from "./Filter";
 import Modal from "./Modal";
@@ -6,6 +7,7 @@ import movieArr from "./MovieObjArr";
 import { useState } from "react";
 
 function App() {
+ 
   const [allMovies, setAllMovies] = useState(movieArr);
   let movieArrCopy = movieArr.slice();
   function handleFilter(search) {
